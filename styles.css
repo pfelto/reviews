@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    background-color: lightpink;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#reviewBox {
+    border: 1px solid black;
+    width: 66vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+button{
+    background-color: inherit;
+    padding: .2em;
+}
