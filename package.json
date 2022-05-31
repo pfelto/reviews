@@ -17,6 +17,19 @@
     "prettier": "2.6.2"
   },
   "eslintConfig": {
-    "extends": ["plugin:prettier/recommended"]
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true
+    },
+    "rules": {
+      "no-undef": "off"
+    }
   }
-}
+  }
+
